@@ -441,7 +441,7 @@ $rates = temp()->remember('api.exchangeRates', '1 hour', function () {
 });
 ```
 
-Combined with [SimpleClient](../SimpleClient/README.md). If the API is slow, only one request waits on it per hour — the rest keep getting the previous rates.
+Combined with [SimpleClient](https://github.com/wirecodex/SimpleClient). If the API is slow, only one request waits on it per hour — the rest keep getting the previous rates.
 
 ### Sharing Data With JavaScript (JSON group)
 
